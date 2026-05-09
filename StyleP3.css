@@ -24,14 +24,6 @@ padding: 5px;
     height: 100vh;
 }
 
-
-.center{
-    width: 45%;
-}
-
-.right{
-    width: 25%;
-}
 /*----Navbar-----------------*/
 
 nav{
@@ -183,10 +175,125 @@ p{
     line-height: 1.6;
 }
 
+/* ----------------main content center ------------ */
+
+.center{
+    width: 45%;
+    background-color: aquamarine;
+    overflow: hidden;
+    
+}
+
+.center img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top :-12%;
+    right: 14px;
+
+}
+.center .center_content{
+    background-color: #fbf5ee;
+    height: 100px;
+    position: relative;
+    top: -35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:60px;
+    color: #555;
+}
+
+/* -------------------------main content right ------------ */
+
+.right{
+    width: 25%;
+     background-color: aquamarine;
+    padding: 80px 50px;
+    
+}
+.right h2{
+    margin-left : 122px;
+}
+
+.right .sizeoption{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.right .sizeoption .sizeses{
+    
+    height: 45px;
+    width: 45px;
+    border-radius: 10px;
+    background-color: #E6E0DA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 
 
+}
+.right .sizeoption .sizeses:hover{
+    background-color: #f08e3f;
+    color: white;
+    font-weight: 600;
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.right #sizeguide{
+    margin-left: 110px;
+}
+
+.right #line2{
+     width: 100%;
+    height: 1px;
+    background-color: #e8e1da;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.right .color-option{
+    display: flex;
+    height: 370px;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+background-color: #E6E0DA;
+padding: 10px;
+flex-wrap: wrap;
 
 
+}
+
+.right .color-option .color1{
+    width: 120px;
+    height: 150px;
+    cursor: pointer;
+    background-color:red ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10%;
+    
+}
+.right .color-option .color1box{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+   
+
+}
+.color1box img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    
+}
 
 
 
